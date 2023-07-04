@@ -1,0 +1,227 @@
+Network_Programming_with_python_exam_5th_communication_eng_2023
+9
+-What is output for 2 * 2 **4?
+32
+16
+8
+2
+-What is output for : a = ['one', 'two', 'three'] ; '*'.join(a)?
+'one*two*three'
+['one','two','three']
+{'one*two*three'}
+[one;two;three]
+-Which among them is incorrect for set s={100,101,102,103}?
+Print(s[3])
+Len(s)
+Sum(s)
+Max(s)
+- Which of the following function gets the length of the string?
+len(string)
+join(seq)
+isupper()
+max(string)
+- What is the output of print str[-1] if str = 'Hello World'?
+d
+world
+h
+''
+-What is the output of the following code snippet?>>nums = [1, 2, 3, 4]>>print(nums[1:3])
+[2, 3]
+[1, 2]
+[3, 4]
+[2, 3,4]
+-What is the purpose of the __init__ method in Python classes?
+Initializes the object's attributes
+Defines the class hierarchy
+Handles exceptions in the class
+Represents the destructor method
+-Which of the following statements is true about Python's Global Interpreter Lock (GIL)?
+It prevents multiple threads from executing Python bytecode at once
+It allows multiple threads to execute in parallel
+It is used to lock Python objects during garbage collection
+It is a mechanism for handling global variables in Python
+-What is the output of the following code?>>my_list = [1, 2, 3, 4, 5]>>new_list = [x * 2 for x in my_list if x % 2 == 0]>>print(new_list)
+[2, 4]
+[2, 4,6,8,10]
+[4, 8]
+[1, 3,5]
+-What is the purpose of the finally block in a try-except-finally statement?
+It executes the code inside the block regardless of whether an exception occurs or not.
+It executes the code inside the block if an exception occurs.
+It executes the code inside the block if an exception occurs.
+It specifies the code that will be executed when an exception does not occur
+-What is the purpose of the join() method in Python?
+It concatenates the elements of an iterable into a string.
+It combines two strings into one.
+It splits a string into a list.
+It removes leading and trailing whitespace from a string.
+-What is the purpose of the super() function in Python?
+It calls the parent class constructor.
+It calls the child class constructor.
+It returns the superclass of a class.
+It returns the subclass of a class.
+-What will be the output of the following code?>>print('Hello' + 5)
+TypeError: can only concatenate str (not "int") to str
+Hello5
+Hello
+5Hello
+-What is the purpose of the map() function in Python?
+It applies a function to each item in an iterable and returns the results
+It creates a new list by filtering an existing list based on a given condition.
+It sorts the items in an iterable in ascending order.
+It reverses the order of elements in an iterable.
+-What will be the output of the following code?>>x = [1, 2, 3]>>y = x>>y.append(4)>>print(x)
+[1, 2, 3, 4]
+[1, 2, 3]
+TypeError: 'tuple' object has no attribute 'append'
+[4, 3, 2, 1]
+-What is the output of the following code?>>print(2 * 3 ** 2)
+18
+12
+20
+30
+-What does the break statement do in Python?
+Terminates the current iteration of a loop and resumes execution at the next iteration
+Terminates the program execution completely.
+Skips the current iteration of a loop and proceeds to the next iteration
+Raises an exception
+-Which of the following is an immutable data type in Python?
+tuple
+list
+set
+dictionary
+-What is the purpose of the __str__ method in Python?
+It returns a string representation of an object.
+It converts a string to uppercase.
+It removes leading and trailing whitespace from a string.
+It compares two strings for equality.
+-What will be the output of the following code?>>x = [1, 2, 3, 4, 5]>>print(x[-2:])
+[4, 5]
+[1, 2]
+[2, 3, 4, 5]
+[2, 3, 4, 5]
+-What is the purpose of the zip() function in Python?
+It iterates over two or more lists simultaneously, returning pairs of corresponding elements.
+It combines two or more lists into a dictionary.
+It removes duplicate elements from a list.
+It sorts the elements of a list in ascending order.
+-Which of the following is an example of an infinite loop in Python?
+while True: print("Hello")
+for i in range(5): print(i)
+if condition: print("Hello")
+for i in range(10): break
+-for i in range(10): break>>print('Hello'.lower())?
+hello
+HELLO
+Hello
+LLO
+-What is the purpose of the continue statement in Python?
+It skips the current iteration of the loop and proceeds to the next iteration.
+It terminates the loop and resumes execution from the beginning of the loop.
+It terminates the loop and resumes execution from the next iteration.
+It skips the current iteration of the loop and exits the loop.
+-What is the purpose of the return statement in a function?
+It specifies the value to be returned by the function.
+It defines the parameters of the function.
+It terminates the function execution.
+It prints the result of the function.
+-What is the purpose of the lambda function in Python?
+To define anonymous functions
+To perform arithmetic operations
+To convert data types
+To convert data types
+-What is a default argument in a function?
+An argument that has a predefined value if not provided by the caller
+An argument that is required to be passed by the caller
+An argument that can only be passed as a keyword argument
+""
+-What is Object-Oriented Programming (OOP)?
+A programming paradigm that organizes code around objects and their interactions
+A programming approach that emphasizes data structures
+A programming paradigm that focuses on procedural code
+A programming methodology that prioritizes functional programming
+-What is an object in OOP?
+An instance of a class
+A collection of variables and functions
+A built-in data type in Python
+A data structure for storing information
+-What is a class in OOP?
+A blueprint for creating objects
+A container for variables and functions
+A predefined set of attributes and behaviors
+A data structure for organizing data
+-What is the principle of encapsulation in OOP?
+The concept of restricting access to internal data and methods of a class
+The practice of grouping related variables and functions into a single unit
+The process of defining multiple methods with the same name in a class
+The ability to inherit attributes and behaviors from a parent class
+What is the purpose of inheritance in OOP?
+To allow a class to acquire properties and methods from another class
+To create multiple instances of a class
+To modify the behavior of a class at runtime
+To provide a way to access class-level variables and methods
+What is method overriding in OOP?
+The concept of modifying the implementation of a method in a subclass
+The practice of grouping related variables and functions into a single unit
+The ability to inherit attributes and behaviors from a parent class
+The process of defining multiple methods with the same name in a class
+-What is method overloading in Python?
+The ability to define multiple methods with the same name but different parameters in a class
+The process of defining multiple classes with the same name in a program
+The practice of grouping related variables and functions into a single unit
+The concept of restricting access to internal data and methods of a class
+-What is the difference between an instance variable and a class variable?
+An instance variable holds data specific to an instance, while a class variable holds data shared by all instances of the class.
+An instance variable can only be accessed through the class itself, while a class variable can be accessed directly through any instance of the class.
+An instance variable is defined within a method, while a class variable is defined outside of any method.
+An instance variable is associated with a specific instance of a class, while a class variable is shared among all instances of the class.
+-What is the purpose of the isinstance() function in Python?
+To check if an object belongs to a specific class or its subclass
+To compare two objects for equality
+To convert an object to a different data type
+To check if an object is iterable
+-Which design pattern is used to ensure that a class has only one instance?
+Singleton Pattern
+Factory Pattern
+Observer Pattern
+Decorator Pattern
+-Which design pattern is used to allow objects to communicate with each other without knowing their specific classes?
+Adapter Pattern
+Prototype Pattern
+Abstract Factory Pattern
+Composite Pattern
+-What is Flask?
+A web framework for building Python web applications
+An object-relational mapping (ORM) library
+A database management system
+A unit testing framework for Python
+-Which command is used to install Flask?
+pip install flask
+pip install django
+pip install pyramid
+pip download flask
+-Which decorator is used to define a route in Flask?
+@app.route
+@path
+@url
+@route
+-Which of the following is true about Flask's template engine?
+Flask uses the Jinja2 template engine by default
+Flask uses the Django template engine by default
+Flask does not support templating
+Flask requires an external library for templating
+-Which protocol is commonly used with sockets for reliable, connection-oriented communication?
+TCP (Transmission Control Protocol)
+UDP (User Datagram Protocol)
+IP (Internet Protocol)
+HTTP (Hypertext Transfer Protocol)
+-What is the role of the bind() method in socket programming?
+To associate a socket with a specific port number and IP address
+To send data over a connected socket
+To listen for incoming connections on a socket
+To accept an incoming connection on a socket
+-What is the role of the accept() method in socket programming?
+To accept an incoming connection and create a new socket for communication
+To establish a connection with a remote socket
+To receive data from a connected socket
+To send data over a connected socket

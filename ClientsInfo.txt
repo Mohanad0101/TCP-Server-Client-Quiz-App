@@ -1,0 +1,8 @@
+Student Information:	IP: 127.0.0.1	Port: 60103	Number: 99999	Name: leno
+
+Answers:Question 1: a	Question 2: b	Question 3: c	Question 4: d	
+Score:
+30.0% 
+***********************************
+
+
